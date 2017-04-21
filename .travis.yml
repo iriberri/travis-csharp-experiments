@@ -3,7 +3,7 @@ sudo: required
 dist: precise
 
 install:
-- sudo add-apt-repository ppa:llvm-toolchain-precise-3.6
+- sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 - sudo apt-get install gcc-6
 
 script:
