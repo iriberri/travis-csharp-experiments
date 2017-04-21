@@ -1,6 +1,6 @@
 language: cpp
 sudo: required
-dist: precise
+dist: trusty
 
 install:
 - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
