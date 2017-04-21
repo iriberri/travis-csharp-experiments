@@ -1,2 +1,11 @@
-language: csharp
-solution: Solution.sln
+language: cpp
+sudo: required
+dist: precise
+
+install:
+- sudo add-apt-repository ppa:llvm-toolchain-precise-3.6
+- sudo apt-get install gcc-6
+
+script:
+- gcc --version
+- gcc-6 --version
